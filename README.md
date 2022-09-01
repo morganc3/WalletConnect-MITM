@@ -6,7 +6,7 @@ to an existing websocket channel. It can also be used without mitmproxy to decry
 # Usage
 
 ## Viewing WalletConnect messages decrypted: 
-1. mitmproxy -s ./wallet_connect_decryptor.py
+1. `mitmproxy -s ./wallet_connect_decryptor.py`
 2. Select the WalletConnect websocket traffic (look for HTTP 101 response) and press enter
 3. Select the "WebSocket Messages" tab
 4. You should now see encrypted WalletConnect messages.
